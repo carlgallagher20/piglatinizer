@@ -1,1 +1,16 @@
-
+body{
+    background-color: beige;
+}
+#display{
+    border-color: black;
+    font-size: 30px;
+    background-color:pink;
+    text-align: center;
+    
+}
+#display{
+    border: dotted black 50px;
+    border-width:10px;
+    padding:3px;
+    margin:1px;
+}
