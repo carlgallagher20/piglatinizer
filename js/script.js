@@ -9,10 +9,10 @@
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
     $('#submit').click(function(){
-       
-        var word = $('#input').val();
-        var transformedWord = wordToPigLatin(word);
-        $("#display").html(sentenceToPigLatin);
+        var pigSentence = $('#input').val();
+        var transformedPig = sentenceToPigLatin(pigSentence);
+        $("#display").text(transformedPig);
+        console.log(transformedPig);
     });
 });
 
