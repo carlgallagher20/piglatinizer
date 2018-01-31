@@ -23,7 +23,27 @@ $( document ).ready(function() {
     //It should return a transfromed sentance
     
 function wordToPigLatin(word){
-    return word + "ay";
+    var vowles = ["a","e","i","o","u"];
+    vowles.indexOf(word[0])>-1;
+    if(word[0]==="a"){
+      return word + "ay";  
+    }
+    else if(word[0]==="e"){
+        return word + "ay";
+    }
+    else if(word[0]==="i"){
+        return word + "ay";
+    }
+    else if(word[0]==="o"){
+        return word + "ay";
+    }
+    else if(word[0]==="u"){
+        return word + "ay";
+    }
+    else{
+        return word.slice(1, word.length) + word.slice(0,1) + "ay";
+        
+    }
 }
  var  sentenceToPigLatin= function (sentence){
 	var pigWords = sentence.split(' ');
