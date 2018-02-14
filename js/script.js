@@ -7,6 +7,8 @@
 // challenge: instead of printing a comma separated list of words,
 // print out a sentence with words separated by spaces
 // this might be useful: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+// another challenge: clear the input after a submission is made
 */
 
 /*global $*/
